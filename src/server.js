@@ -16,7 +16,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://diginotesadmin.netlify.app/",
+    origin: "https://diginotesadmin.netlify.app",
     credentials: true,
   })
 );
